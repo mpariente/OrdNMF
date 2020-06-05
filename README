@@ -1,11 +1,16 @@
-This folder contains: 
+Code for the article: 
+O. Gouvert, T. Oberlin, C. Févotte "Ordinal Non-Negative Matrix Factorization for Recommendation"
 
-- data: contains MovieLens (ML) and Taste Profile (TPS) datasets and preprocessing.
+Implemented in Python 2.7.
+
+The repository contains:
+
+- data: contains MovieLens (ML) and Taste Profile (TPS) datasets and preprocessing
 - function: 
-	* preprocess_data.py used to split datasets into train set + test set. 
-	- rec_eval used to calculate evaluation metrics.
+	* preprocess_data.py used to split datasets into train set + test set
+	* rec_eval used to calculate evaluation metrics
 - model: 
-	* OrdNMF implementation described in the paper. 
+	* OrdNMF implementation described in the paper
 	* dcPF implementation as described in Gouvert et al. (2019) (PF as a limit case)
 - script: contains the experiments for both datasets
 	* train: training models 
